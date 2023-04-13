@@ -8,9 +8,8 @@ import { Logo } from './Logo'
 
 export function NavBar() {
   return (
-    <div className='fixed bg-white w-full z-10 shadow-sm'>
-      <div
-        className='py-4border-b-[1px]'>
+    <div className='fixed top-0 w-full z-10 shadow-sm bg-white'>
+      <div className='py-4 border-b-[1px]'>
         <Container>
           <div className='flex items-center justify-between gap-3 md:gap-0'>
             <Logo />
